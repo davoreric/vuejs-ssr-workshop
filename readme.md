@@ -74,17 +74,17 @@
     <style></style>
     ```
 
-3. Create router component and save that in "./src/router/index.js"
+3. Create router component and save that in "./src/router.js"
 
     ```javascript
     import Vue from 'vue';
     import Router from 'vue-router';
-    import Home from '../components/Home.vue';
-    import About from '../components/About.vue';
+    import Home from './components/Home.vue';
+    import About from './components/About.vue';
 
     Vue.use(Router);
 
-    const router = new Router({
+    export default new Router({
         mode: 'history',
         routes: [
             {
@@ -99,8 +99,6 @@
             }
         ]
     });
-
-    export default router;
     ```
 
 4. Import router in app.js and pass it as prop
@@ -171,11 +169,11 @@
     import { createRouter } from './router';
 
     export function createApp () {
-            const router = createRouter();
+        const router = createRouter();
         const app = new Vue({
-                    router,
-                    el: '#app',
-                    render: h => h(App)
+            router,
+            el: '#app',
+            render: h => h(App)
         });
         return { app, router };
     }
