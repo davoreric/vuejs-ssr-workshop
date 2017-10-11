@@ -3,13 +3,13 @@ const webpack = require('webpack');
 
 module.exports = {
 
-    entry: './src/main.js',
+    entry: './src/app.js',
 
     output: {
 
         path: path.resolve(__dirname, './dist'),
         publicPath: '/dist/',
-        filename: '[name].[chunkhash].js'
+        filename: 'bundle.js'
     
     },
 
