@@ -1,6 +1,12 @@
-# VueJS Workshop documentation
+# VueJS 2 SSR Workshop documentation
 
-> Vue.js workshop with step by step guide how to build VueJS instance, router, components and sprinkle it all with server side rendering flavor.
+> Vue.js 2 workshop with step by step guide how to build VueJS instance with single file components, router and sprinkle it all with server side rendering flavor.
+Since VueJS has one of the best documented API around, for any additional questions please refer to official documentation for VueJS, VueJS router and VueJS SSR.
+
+## Reading
+- [VueJS API documentation](https://vuejs.org/v2/api/)
+- [VueJS router API documentation](https://router.vuejs.org/en/)
+- [VueJS SSR API documentation](https://ssr.vuejs.org/en/)
 
 ## Requirements
 
@@ -136,6 +142,8 @@
     ```
 
 ## SSR magic
+
+> This is fully customizable server side rendering with VueJS and Express server. This gives you possibility to tweak appliction to your needs. But if you require quick and easy solution please take look on [Nuxt](https://nuxtjs.org/).
 
 1. Install following packages as dependencies:
     - vue-server-renderer
