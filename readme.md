@@ -187,22 +187,26 @@ Since VueJS has one of the best documented API around, for any additional questi
     }
     ```
 
-5. Copy following files
+5. Override following files
+
+    - package.json in root (copy from workshop/package.full.json)
+
+6. Copy following files
 
     - server.js in /src folder (copy from workshop/server.js)
     - index template in /src folder (copy from workshop/index.template.html)
     - server entry point in /src folder (copy from workshop/server.js)
     - client entry point in /src folder (copy from workshop/server.js)
 
-6. Copy webpack files for build process
+7. Copy webpack files for build process
 
     - development server setup file (copy from workshop/setup-dev-server.js)
     - base webpack config (copy from workshop/webpack.base.config.js)
     - build for client entry point (copy from workshop/webpack.client.config.js)
     - build for server entry point (copy from workshop/webpack.server.config.js)
 
-7. Run cli `npm run build` to create server and client bundles
+8. Run cli `npm run build` to create server and client bundles
 
-8. Run cli `npm run dev` for development enviorment with hot module replacement
+9. Run cli `npm run dev` for development enviorment with hot module replacement
 
-9. Run cli `npm start` for production enviorment
+10. Run cli `npm start` for production enviorment
