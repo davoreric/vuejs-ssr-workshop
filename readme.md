@@ -195,8 +195,8 @@ Since VueJS has one of the best documented API around, for any additional questi
 
     - server.js in /src folder (copy from workshop/server.js)
     - index template in /src folder (copy from workshop/index.template.html)
-    - server entry point in /src folder (copy from workshop/server.js)
-    - client entry point in /src folder (copy from workshop/server.js)
+    - server entry point in /src folder (copy from workshop/entry-server.js)
+    - client entry point in /src folder (copy from workshop/entry-client.js)
 
 7. Copy webpack files for build process
 
