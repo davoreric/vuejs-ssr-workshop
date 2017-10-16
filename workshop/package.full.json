@@ -1,0 +1,32 @@
+{
+  "name": "ssr-vue",
+  "version": "1.0.0",
+  "description": "Server side rendered Vue.js application",
+  "author": "davoreric <davor.eric@trikoder.net>",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot"
+  },
+  "dependencies": {
+    "cross-env": "^5.0.5",
+    "vue": "^2.4.4",
+    "vue-router": "^2.7.0",
+    "vue-server-renderer": "^2.5.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "memory-fs": "^0.4.1",
+    "rimraf": "^2.6.2",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-middleware": "^1.12.0",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-hot-middleware": "^2.19.1",
+    "webpack-merge": "^4.1.0",
+    "webpack-node-externals": "^1.6.0"
+  }
+}
